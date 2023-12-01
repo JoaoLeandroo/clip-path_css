@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: greenyellow;
+    position: relative;
+    -webkit-clip-path: polygon(50% 0%, 75% 15%, 76% 42%, 98% 70%, 59% 79%, 30% 90%, 0 70%, 0 28%, 31% 20%);
+    clip-path: polygon(50% 0%, 75% 15%, 76% 42%, 98% 70%, 59% 79%, 30% 90%, 0 70%, 0 28%, 31% 20%);
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    -webkit-clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+    clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
